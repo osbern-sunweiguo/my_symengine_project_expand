@@ -1,0 +1,31 @@
+# 编译生成的对象文件、库文件、可执行文件
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# 构建系统生成的目录（如 CMake, Makefile）
+build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+Makefile
+CMakeCache.txt
+
+# 编辑器和IDE的配置文件
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 你最终生成的可执行程序名称（根据你的项目修改）
+test001
+
+# 在这个相同的目录下，还有kdevelop的相关文件和目录
+.kdev4/
+test001.kdev4
